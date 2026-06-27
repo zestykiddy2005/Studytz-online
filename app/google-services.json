@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "544072813344",
+    "project_id": "studytz-2c49e",
+    "storage_bucket": "studytz-2c49e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544072813344:android:bea43c4a64f02441592545",
+        "android_client_info": {
+          "package_name": "com.aistudio.studytz.abcde"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFG4cDHFf5fGGfzC2Hfbpxo8CazUk0c0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

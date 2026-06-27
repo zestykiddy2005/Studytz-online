@@ -1,0 +1,6 @@
+{
+  "name": "StudyTZ",
+  "description": "Mtandao wa Wanafunzi Tanzania (Chuo Kiganjani Mwako)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
