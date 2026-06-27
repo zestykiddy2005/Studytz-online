@@ -15,13 +15,12 @@ jobs:
         run: |
           wget https://services.gradle.org/distributions/gradle-8.10.1-bin.zip
           unzip gradle-8.10.1-bin.zip
-          export PATH=$PATH:$PWD/gradle-8.10.1/bin
-          gradle --version
       - name: Build APK
         run: |
           export PATH=$PATH:$PWD/gradle-8.10.1/bin
-          gradle assembleDebug --stacktrace --info 2>&1 | head -100
+          gradle assembleDebug
       - uses: actions/upload-artifact@v4
         with:
           name: StudyTZ-APK
           path: app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
